@@ -24,7 +24,7 @@ namespace ProgramZaPozdrave
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(String.Format("Pozdrav, {0}", textBox1.Text));
+            MessageBox.Show(String.Format("Pozdrav, {0}", textBox1.Text), "Pozdrav", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
