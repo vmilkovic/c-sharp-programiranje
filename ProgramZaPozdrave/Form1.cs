@@ -16,5 +16,15 @@ namespace ProgramZaPozdrave
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(String.Format("Pozdrav, {0}", textBox1.Text));
+        }
     }
 }
